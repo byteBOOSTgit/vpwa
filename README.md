@@ -1,6 +1,6 @@
 # vpwa
 Vulnerably Python Web Apps to practice simple exploits.
-## Install the latest Ubuntu Servert LTS
+## Install the latest Ubuntu Server LTS
 Install Ubuntu Server as a Virtual Machine or on bare metal.  You can download [Ubuntu Server here](https://ubuntu.com/download/server).
 ## Set Up the Web Server
 These are the commands to set up a web server on Ubuntu Server to serve web apps written in Python.
