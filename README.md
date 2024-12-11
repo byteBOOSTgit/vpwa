@@ -16,5 +16,6 @@ These are the commands to set up a web server on Ubuntu Server to serve web apps
 ## Upload the Web Application Files
 1. Upload the python files in the "python" folder of this repository in the following directory: `/usr/lib/cgi-bin`
 2. Upload the HTML files in the "html" folder of this repository in the following directory: `/var/www/html`
+3. Make the directory to store files uploaded by the python web app: `mkdir /var/www/html/uploaded_files`
 ## Access the Web Files with a Web Browser
 Go to: `http://<web server ip or hostname>/index.html`
