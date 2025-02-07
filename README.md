@@ -9,10 +9,10 @@ These are the commands to set up a web server on Ubuntu Server to serve web apps
 3. `sudo apt install apache2 -y`
 4. `sudo systemctl status apache2`
 5. `sudo a2enmod cgi`
-6. `sudo systemctl restart apache`
+6. `sudo systemctl restart apache2`
 7. `sudo apt install python3 -y`
 8. `python3 --version`
-9. `sudo systemctl restart apache`
+9. `sudo systemctl restart apache2`
 ## Upload the Web Application Files
 1. Upload the python files in the "python" folder of this repository in the following directory: `/usr/lib/cgi-bin`
 2. Upload the HTML files in the "html" folder of this repository in the following directory: `/var/www/html`
